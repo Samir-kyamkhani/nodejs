@@ -2,12 +2,16 @@
   "name": "cluster",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "culstore-index.js",
   "type": "module",
   "scripts": {
-    "dev": "node --watch index.js"
+    "dev": "node --watch culstore-index.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "autocannon": "^8.0.0",
+    "express": "^5.2.1"
+  }
 }
